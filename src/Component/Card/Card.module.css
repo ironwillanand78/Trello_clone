@@ -1,0 +1,102 @@
+.card{
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: space-between;
+    padding: .2vw 2vw;
+    gap: 15px;
+    margin: 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+span{
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent;
+}
+
+.edit, .dlt{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit img{
+    height: 20px;
+    width: 20px;
+    background: rgba(255, 255, 255, 0.001);
+    transition: all 0.3s ease;
+}
+
+.edit:hover img{
+    filter: drop-shadow(0 0 10px white);
+    scale: 1.05;
+}
+
+.dlt img{
+    height: 20px;
+    width: 20px;
+    background: rgba(255, 255, 255, 0.00001);
+    transition: all 0.3s ease;
+}
+
+.dlt:hover img{
+    filter: drop-shadow(0 0 10px red);
+    scale: 1.05;
+}
+
+.btns{
+    background: rgba(255, 255, 255, 0.00005);
+    display: flex;
+    gap: 10px;
+}
+
+.btns button{
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.00001);
+    padding: 0.5vw 1vw;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    transition: all 0.3s ease;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.editContainer{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.0001);
+}
+
+.save{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.00002);
+    transition: all 0.3s ease;
+}
+
+.save:hover{
+    color: rgb(0, 255, 0);
+}
+
+.cancel{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.00002);
+    transition: all 0.3s ease;
+}
+
+.cancel:hover{
+    color: rgb(255, 0, 0);
+}
+
+.editInput{
+    padding: 0.5vw 2vw;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: .2px solid white;
+}
+
+.editInput:focus-within{
+    outline: none;
+}

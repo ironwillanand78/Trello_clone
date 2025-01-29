@@ -1,0 +1,9 @@
+.head{
+    text-align: center;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.cardListContainer{
+    display: flex;
+}
